@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d7471;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 3em;
+}
+
+header > div.user-profile{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div.user-profile > div.img-profile{
+    width: 30%;
+    height: 100%;
+    background-color: #1d7471;
+}
+
+header > div.user-profile > div.img-profile > img{
+    width: 100%;
+    height: 100%;
+}
+
+header > div.user-profile > h2{
+    width: 50%;
+    font-size: 2.5rem;
+}
+
+header > div.button-configuration{
+    width: 5%;
+    height: 100%;
+}
+
+header > div.button-configuration > img{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+main > .row-twoImage{
+    width: 80%;
+    height: 40%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+main > .row-twoImage > .oneImage{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > .row-twoImage > .oneImage > div.image-body{
+    height: 100%;
+    width: 30%;
+    background-color: #1d7471;
+}
+
+main > .row-twoImage > .oneImage > div.image-body > img{
+    width: 100%;
+    height: 100%;
+}
+
+main > .row-twoImage > .oneImage > div.text-box{
+    background-color: #c7b7e9;
+    width: 67%;
+    height: 100%;
+}
+
+main > .row-twoImage > .oneImage > div.text-box > p{
+    font-size: 2rem;
+}
