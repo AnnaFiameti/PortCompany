@@ -11,5 +11,16 @@ public class indexController {
     public String cadastrar() {
         return "cadastrar";}
 
+    @GetMapping("/config")
+    public String config(){
+        return "config";}
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";}
+
+    @GetMapping("/vizusuario")
+    public String vizusuario(){
+        return "vizusuario";}
 
 }

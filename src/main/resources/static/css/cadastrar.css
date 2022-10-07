@@ -18,18 +18,19 @@ article.main{
 .box-image{
     width: 50%;
     height: 100%;
-    margin-left: auto;
+    margin-left: 15em;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
     justify-content: center; 
+    max-width: 300px; 
 }
 
 div.form{
     width: 50%;
     height: 50%;
-    margin: 10% auto;
+    margin: 3% auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
