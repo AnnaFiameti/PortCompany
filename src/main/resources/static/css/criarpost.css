@@ -21,7 +21,7 @@ article.main{
     margin-left: 15em;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 8%;
+    margin-top: 10%;
     display: flex;
     justify-content: center; 
     max-width: 300px; 
@@ -30,7 +30,7 @@ article.main{
 div.form{
     width: 50%;
     height: 50%;
-    margin: 3% auto;
+    margin: 10% auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,7 +51,7 @@ input{
     height: 3em;
     margin: 1em auto;
 }
-
 .button{
-    background-color: #92a5e5;
+    background-color: cornflowerblue;
 }
+

@@ -23,4 +23,11 @@ public class indexController {
     public String vizusuario(){
         return "vizusuario";}
 
+    @GetMapping("/recuperarsenha")
+    public String recuperarsenha(){
+        return "recuperarsenha";}
+
+    @GetMapping("/criarpost")
+    public String criarpost(){
+        return "criarpost";}
 }
