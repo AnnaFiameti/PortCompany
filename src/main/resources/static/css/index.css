@@ -1,0 +1,36 @@
+body{
+    background-color: #1d7471;
+}
+
+.search-box{
+    background: white;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    color: black;
+    transition: .2s;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+
+}

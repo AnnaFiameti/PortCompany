@@ -34,10 +34,6 @@ header > div.user-profile > div.img-profile{
     background-color: #1d7471;
 }
 
-header > div.user-profile > div.img-profile > img{
-    width: 100%;
-    height: 100%;
-}
 
 header > div.user-profile > h2{
     width: 50%;
@@ -54,7 +50,7 @@ header > div.button-configuration > a > img{
 }
 
 main{
-    width: 100%;
+    width: 100%;  
     height: 75%;
     display: flex;
     justify-content: center;
@@ -99,4 +95,11 @@ main > .row-twoImage > .oneImage > div.text-box{
 
 main > .row-twoImage > .oneImage > div.text-box > p{
     font-size: 2rem;
+}
+
+@media only screen and (max-device-width: 700px) {
+    /* .menu { width:400px; } */
+    .main{
+        width: 300px;
+    }
 }
