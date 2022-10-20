@@ -4,12 +4,19 @@ body{
 
 .search-box{
     background: white;
-    height: 40px;
+    height: 35px;
+    width: 250px;
     padding: 10px;
     border-radius: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 55%;
+
+}
+
+.user-profile{
+    display: flex;
 }
 
 .search-txt{
@@ -24,13 +31,52 @@ body{
 }
 
 .search-btn{
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
-    background: whitesmoke;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .5s;
+    margin-left: -40px;
+}
 
+.cabecalho{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.corpo{
+    height: fit-content;
+    display: block;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+.oneImage{
+    width: auto;
+    height: 100%;
+    display: block;
+    justify-content: space-between;
+}
+.oneImage > div.image-body{
+    height: auto;
+    width: auto;
+    background-color: #1d7471;
+}
+.oneImage > div.image-body > img{
+    width: 100%;
+    height: 100%;
+}
+.oneImage > div.text-box{
+    background-color: #c7b7e9;
+    width: 67%;
+    height: 100%;
+}
+.oneImage > div.text-box > p{
+    font-size: 2rem;
 }
