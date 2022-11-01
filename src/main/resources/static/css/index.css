@@ -1,5 +1,5 @@
 body{
-    background-color: #1d7471;
+    background: linear-gradient(to right, rgb(22, 76, 158),rgb(76, 162, 212));
 }
 
 .search-box{
@@ -66,17 +66,22 @@ body{
 .oneImage > div.image-body{
     height: auto;
     width: auto;
-    background-color: #1d7471;
+    background-color: #7BA8C2;
 }
 .oneImage > div.image-body > img{
     width: 100%;
     height: 100%;
 }
 .oneImage > div.text-box{
-    background-color: #c7b7e9;
+    background-color: #004AAD;
     width: 67%;
     height: 100%;
 }
 .oneImage > div.text-box > p{
     font-size: 2rem;
+}
+
+.button-configuration{
+    width: 5%;
+    height: 100%;
 }

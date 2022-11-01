@@ -14,9 +14,8 @@ public class Usuario {
     @Size(max = 100)
     @NotNull
     private String nome;
-    @Size(max = 15)
+    @Size(max = 40)
     private String username;
-    @Size(max = 30)
     private String telefone;
     private String email;
     private String senha;

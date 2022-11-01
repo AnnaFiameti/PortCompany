@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: hsl(178, 60%, 28%);
+    background: linear-gradient(to right, rgb(22, 76, 158),rgb(76, 162, 212));
 }
 
 article.main{
@@ -34,7 +34,7 @@ div.form{
 }
         
 button{
-    background-color: #92a5e5;
+    background-color: rgb(3, 56, 124);
     border-radius: 5%;
     width: 300px;
     height: 150%;
@@ -42,4 +42,26 @@ button{
     text-align: center;
 }
 
+.nav-tabs{
+    border-color: transparent !important;
+}
 
+.nav-link.active {
+    border-color: red !important;
+}
+
+a {
+    color: white !important;
+    background-color: black !important;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    margin-top: 200px;
+}
+#imgfoot{
+    width: 500px;
+}

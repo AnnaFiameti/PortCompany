@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h2{
+    font-size: x-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
 article{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: #1d7471;
+    background: linear-gradient(to right, rgb(22, 76, 158),rgb(76, 162, 212));
+    /* background-color: rgb(85, 144, 179); */
 }
 
 header{
@@ -31,7 +36,6 @@ header > div.user-profile{
 header > div.user-profile > div.img-profile{
     width: 30%;
     height: 100%;
-    background-color: #1d7471;
 }
 
 
@@ -79,7 +83,7 @@ main > .row-twoImage > .oneImage{
 main > .row-twoImage > .oneImage > div.image-body{
     height: 100%;
     width: 30%;
-    background-color: #1d7471;
+    background-color: rgb(188, 214, 238);
 }
 
 main > .row-twoImage > .oneImage > div.image-body > img{
@@ -88,13 +92,22 @@ main > .row-twoImage > .oneImage > div.image-body > img{
 }
 
 main > .row-twoImage > .oneImage > div.text-box{
-    background-color: #c7b7e9;
+    background-color: rgb(255, 255, 255);
     width: 67%;
     height: 100%;
 }
 
 main > .row-twoImage > .oneImage > div.text-box > p{
     font-size: 2rem;
+}
+
+footer{
+    position: absolute;
+   text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    margin-top: 200px;
 }
 
 @media only screen and (max-device-width: 700px) {
